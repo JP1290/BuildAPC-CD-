@@ -1,0 +1,208 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url(../images/solo_project_bgimg.jpg);
+	background-size: cover;
+	display:flex;
+	justify-content: center;
+}
+
+.background h1{
+	color: whitesmoke;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.errors {
+	color: red;
+}
+
+.login {
+	margin-top: 90px;
+	background-color: whitesmoke;
+	height: 330px;
+	width: 280px;
+	padding-top: 15px;
+	border-radius: 10%;
+	opacity: 90%;
+}
+
+.login form{
+	display:block;
+	padding-left: 15px;
+}
+
+.login h4{
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
+
+.login_input{
+	margin-left: 22px;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+
+.registerLink{
+	margin-top: 75px;
+	text-align: center;
+}
+
+.login_button{
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 105px;
+}
+
+.register {
+	margin-top: 90px;
+	background-color: whitesmoke;
+	height: 330px;
+	width: 280px;
+	padding-top: 15px;
+	border-radius: 10%;
+	opacity: 90%;
+}
+
+.register form {
+	display:block;
+	padding-left: 7px;
+}
+
+.register h4 {
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
+
+.register_button {
+	margin-left: 105px;
+	margin-top: 10px;
+}
+
+.register_pw_input {
+	margin-left: 20px;
+}
+
+.register_email_input {
+	margin-left: 43px;
+}
+
+.register input {
+	margin-top: 15px;
+}
+
+.main_page {
+	margin-left: 110px;
+	margin-top: 30px;
+}
+
+.all_builds {
+	margin-top: 90px;
+	background-color: whitesmoke;
+	min-height: 100px;
+	height: auto;
+	width: 320px;
+	padding: 15px;
+	border-radius: 5%;
+	opacity: 90%;
+}
+
+.top_links {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.builds {
+	margin-top: 10px;
+}
+
+.all_builds h3 {
+	text-align: center;
+}
+
+.add_build {
+	margin-top: 90px;
+	background-color: whitesmoke;
+	min-height: 100px;
+	height: auto;
+	width: 380px;
+	padding: 25px;
+	border-radius: 5%;
+	opacity: 90%;
+}
+
+.add_build p{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+.add_build select{
+	width: 220px;
+}
+
+.add_build h4 {
+	text-align: center;
+}
+
+.add_build_button {
+	margin-top: 30px;
+	margin-left: 140px;
+}
+
+.one_build {
+	margin-top: 90px;
+	background-color: whitesmoke;
+	min-height: 100px;
+	height: auto;
+	min-width: 450px;
+	padding: 25px;
+	border-radius: 5%;
+	opacity: 90%;
+}
+
+.show_one_build {
+	border-collapse: collapse;
+	margin: 25px 0;
+	min-width: 450px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0, 0);
+}
+
+.show_one_build thead tr {
+	text-align: left;
+}
+
+.show_one_build th, td{
+	padding: 12px 15px;
+}
+
+.show_one_build tbody tr{
+	border-bottom: 1px solid;
+}
+
+.show_one_build tbody tr:last-of-type {
+	border-bottom: 2px solid;
+}
+
+.one_build h4{
+	text-align: center;
+}
+
+.one_build h5{
+	text-align: right;
+}
+
+.bottom_links {
+	display: flex;
+	justify-content: center;
+}
+
+.move_link_left {
+	margin-left: 15px;
+}
